@@ -23,6 +23,7 @@
 
     <!--Custom Css-->
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/gallery.css">
     <!--End Custom Css-->
 </head>
 
@@ -112,17 +113,46 @@
 
     <main id="main">
 
-        <!-- ======= About Section ======= -->
-        <section id="about" class="about mt-5">
-            <div class="container-fluid">
-                <h2 class="h1-responsive font-weight-bold text-center my-2">Our Vision</h2>
-                <!--Section description-->
-                <p class="text-center w-responsive mx-auto mb-1">
-                    To Train Morally Upright Children Equipped with Basic Survival Skills.</p>
-    
-            </div>
-        </section><!-- End About Section -->
+        <input type="radio" name="Photos" id="check1" checked>
+        <input type="radio" name="Photos" id="check2">
+        <input type="radio" name="Photos" id="check3">
+        <input type="radio" name="Photos" id="check4">
+        <input type="radio" name="Photos" id="check5">
 
+
+        <div class="container2">
+            <h1>OUR PHOTO GALLERY</h1>
+            <div class="top-content">
+                <h3>Photo Gallery</h3>
+                <label for="check1">All Photos</label>
+                <label for="check2">MDD</label>
+                <label for="check3">Farewell</label>
+                <label for="check4">Sports</label>
+                <label for="check5">Others</label>
+            </div>
+
+            <div class="photo-gallery">
+                <div class="pic sports">
+                    <img src="IMAGES/sports1.JPG" alt="">
+                </div>
+
+                <div class="pic mdd">
+                    <img src="IMAGES/mdd1.JPG" alt="">
+                </div>
+
+                <div class="pic farewell">
+                    <img src="IMAGES/farewell1.JPG" alt="">
+                </div>
+
+                <div class="pic others">
+                    <img src="IMAGES/others1.jpg" alt="">
+                </div>     
+
+            </div>
+
+        </div>
+
+    
 
         <!-- Footer -->
         <footer class="text-center text-lg-start bg-primary py-3 text-white">
